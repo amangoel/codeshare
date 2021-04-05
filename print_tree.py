@@ -129,7 +129,7 @@ else:
                 actual_num_nodes += 1
         if rand_node.left_child and rand_node.right_child:
             nodes_with_missing_children.remove(rand_node)
-print(f'Actual number of nodes added to the tree = {actual_num_nodes}')
+    print(f'Actual number of nodes added to the tree = {actual_num_nodes}')
 print('*******************************************************************************')
 print_tree(root_node)
 
